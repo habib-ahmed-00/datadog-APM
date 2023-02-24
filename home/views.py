@@ -1,4 +1,6 @@
 from django.shortcuts import render, redirect
+from ddtrace.runtime import RuntimeMetrics
+RuntimeMetrics.enable()
 
 # Create your views here.
 
